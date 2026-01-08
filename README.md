@@ -2,7 +2,7 @@
 
 A production-ready MLOps pipeline for dynamic pricing optimization using demand forecasting and price elasticity modeling. This engine enables businesses to maximize revenue by intelligently adjusting prices based on predicted demand elasticity.
 
-## 🎯 Why This Matters: Yield Management & Revenue Optimization
+## Why This Matters: Yield Management & Revenue Optimization
 
 **Yield Management** (also known as revenue management) is a pricing strategy that allows businesses to maximize revenue by dynamically adjusting prices based on demand patterns, market conditions, and customer price sensitivity. This is widely used in industries such as:
 
@@ -26,7 +26,7 @@ This engine combines:
 - **Price elasticity estimation** using log-log regression
 - **Mathematical optimization** to find revenue-maximizing prices
 
-## 🏗️ Architecture & Methodology
+## Architecture & Methodology
 
 ### How It Works
 
@@ -56,7 +56,7 @@ This engine combines:
    ```
    With constraints: `0.8 × Base_Price ≤ Optimal_Price ≤ 2.0 × Base_Price`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 revenue_optimization_engine/
@@ -74,7 +74,7 @@ revenue_optimization_engine/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -161,11 +161,11 @@ Optimal Pricing:
   Demand: XXX.X trips
   Revenue: $XXX.XX
 
-📈 Revenue Uplift: X.XX%
+Revenue Uplift: X.XX%
    ($XX.XX increase)
 ```
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Model Architecture
 
@@ -185,13 +185,13 @@ Uses **log-log regression** to estimate price elasticity:
 
 Uses `scipy.optimize.minimize_scalar` with bounded constraints to find the price that maximizes revenue within feasible bounds.
 
-## 📊 Key Metrics
+## Key Metrics
 
 - **Price Elasticity**: Measures price sensitivity (typically -1.5 to -3.0 for transportation)
 - **Revenue Uplift**: Percentage increase in revenue from optimal pricing
 - **Model Performance**: R², MAE, RMSE for demand forecasting accuracy
 
-## 🔄 Extending the Engine
+## Extending the Engine
 
 ### Future Enhancements
 
@@ -209,11 +209,8 @@ Uses `scipy.optimize.minimize_scalar` with bounded constraints to find the price
 - **Feature store**: Centralize feature engineering for consistency
 - **MLflow/DVC**: Version control for models and experiments
 
-## 👤 Author
 
-Senior Data Scientist & MLOps Engineer
-
-## 📝 License
+## License
 
 This project is provided as-is for demonstration and educational purposes.
 
